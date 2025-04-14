@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-image: url("https://wallpapers.com/images/hd/mickey-mouse-home-udcbsznzqq6uz8yn.jpg");
+}
+
+.centrar-text {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /*genera columnas acorde al tamaño y cantidad que le pasemos*/
+  grid-auto-rows: auto; /*genera filas automaticamente acorde al tamaño del contenido*/
+  gap: 10px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  cursor: pointer; /* el cursor pointer cambia el cursos por una mano*/
+}
+
+.mickey {
+  background-color: red;
+}
+
+.donal {
+  background-color: blue;
+}
+
+.pluto {
+  background-color: yellow;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+/*media query indicaz que cuando se llegue a ese tamaño o menos clases 
+ que estan adentro  de la llaves que va a cambiar a lo que digan*/
+
+@media (max-width) {
+}

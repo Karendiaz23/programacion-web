@@ -1,0 +1,57 @@
+h1 {
+  color: #cdeeff; /* Color del texto */
+  font-size: 25px; /* Tamaño de fuente */
+  font-family: Arial, sans-serif; /* Tipo de letra */
+  text-align: center; /* Alineación del texto */
+}
+
+button {
+  color: #2b2a2b; /* Color del texto */
+  font-size: 15px; /* Tamaño de fuente */
+  font-family: Arial, sans-serif; /* Tipo de letra */
+  text-align: center; /* Alineación del texto */
+  font-weight: 100px;
+  min-width: 155px;
+  min-height: 25px;
+}
+
+.contenedor-input {
+}
+
+input {
+  color: gray (255, 255, 255);
+  font-size: 15px; /* Tamaño de fuente */
+  font-family: Arial, sans-serif; /* Tipo de letra */
+  text-align: left; /* Alineación del texto */
+
+  border-radius: 2px;
+  gap: 10px;
+}
+
+h3 {
+  color: #cdeeff; /* Color del texto */
+  font-size: 10px; /* Tamaño de fuente */
+  font-family: Arial, sans-serif; /* Tipo de letra */
+  text-align: center; /* Alineación del texto */
+}
+
+.contenedor {
+  background-color: #0b4f75;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #318ac4;
+  gap: 15px;
+  height: 400px;
+  width: 400px;
+  font-size: 11px;
+  border-radius: 5px;
+}
+
+.contenedor3 {
+  background-color: #bde7ff;
+}
