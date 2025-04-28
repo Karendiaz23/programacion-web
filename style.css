@@ -1,39 +1,3 @@
-/* hoja de estilos css*/
 
-
-/* tres sectores*/
- p h2 {
-    color:blue;
-
- }
-
-  .contenido{
-    color:black;/*modifica el color de texto*/
-    background-color: beige;/*COLOR DE FONDO*/
-    font-size :20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    border: 2px solid rgb(12, 12, 12);/*ancho,tipo.color de linea*/
-    padding: 5px;/*espacio de los bordes*/
-    display: flex;
-    gap: 20px;
-    width: 600px;
-    height: 350px;
-    font-size: 11px;
-    font-family: sans-serif;
-  }
-
-  .contenedor-bordes { 
-    display:flex;
-    width: 300px;
-    height: 600px;
-    background-color: black;
-
-    
-  }
-   img{
-     width: 300px;
-     height: 600px;
-    }
 
    
