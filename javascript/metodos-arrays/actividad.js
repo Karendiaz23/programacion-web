@@ -1,6 +1,7 @@
 //actividad//
 
 
+
 let productos =[];
 productos.push({ nombre: "Celular", precio: 500, categoria: "Electrónica" });
 productos.push({ nombre: "Zapatillas", precio: 100, categoria: "Ropa" });
